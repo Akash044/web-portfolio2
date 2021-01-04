@@ -1,6 +1,76 @@
 body{
     font-family: 'Roboto', sans-serif;
+    
 }
-.name-highlight{
+h1{
+    font-size: 50px;
+}
+h2{
+}
+h3{
+    color: goldenrod;
+    
+}
+
+.color-highlight{
     color: deepskyblue;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left:5% ;
+    padding-left: 2%;
+
+}
+.half-width img{
+    width: 70%;
+    margin-left: 100px;
+}
+.top-portion{
+    height:400px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+    margin-bottom: 150px;
+}
+.midle-portion{
+    height:400px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    margin-bottom: 150px;
+
+}
+.bottom-portion{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: left;
+}
+.button-linker{
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: chocolate;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 3px;
+
+}
+#logo{
+    width: 30px;
+
+}
+#dr{
+    text-align: center;
+    font-size: 50px;
+}
+
+.bottom-p{
+    /* border: 3px solid black; */
+    color: dimgray;
+    padding: 20px;
+    background: white;
+    box-shadow:10px 10px 40px gray;
+    border-radius: 5px;
 }
