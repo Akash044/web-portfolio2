@@ -23,8 +23,8 @@ h3{
 
 }
 .half-width img{
-    width: 70%;
-    margin-left: 100px;
+    width: 75%;
+    margin-left: 5%;
 }
 .top-portion{
     height:400px;
@@ -73,4 +73,7 @@ h3{
     background: white;
     box-shadow:10px 10px 40px gray;
     border-radius: 5px;
+}
+#middle-image{
+    width: 500px;
 }
